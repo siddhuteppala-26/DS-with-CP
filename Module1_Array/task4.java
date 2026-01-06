@@ -23,8 +23,8 @@ class Main {
         a.getData();
         Node b=new Node(50);
         System.out.println(b);
-        b.getData();
+        a.getData();
         a.next=b;
-        b.getRef();
+        a.getRef();
     }
 }
